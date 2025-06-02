@@ -1,0 +1,65 @@
+
+/* mio luis Autran*/
+
+
+/* Efecto hover para las tarjetas */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el título */
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #004A98;
+}
+
+/* Estilo para la barra de búsqueda */
+#search-input {
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: 1px solid #004A98;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para las tarjetas */
+.card {
+    border: 1px solid #004A98;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.card-title {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #004A98;
+}
+
+.card-text {
+    font-family: 'Arial', sans-serif;
+    color: #555;
+}
+
+.card-footer {
+    background-color: #fff;
+    border-top: 1px solid #004A98;
+}
+
+.btn-primary {
+    background-color: #004A98;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #003366;
+}

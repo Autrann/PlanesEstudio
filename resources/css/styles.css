@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidenav {
+    height: 100%;
+    width: 16%;
+    position: fixed;
+    top: 68px;
+    left: 0;
+    background-color: #a1e8cc;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.template span {
+    font-size: 8.5px;
+    margin-top: 1px;
+}
+
+.mas {
+    margin-top: 17%;
+    white-space: pre-wrap;
+}
+
+.canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+}
+
+.invisible {
+    display: none;
+}
+
+.optativa_plan {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
+#busca_materia {
+    width: 50%;
+}
+
+#busca_otra_materia {
+    width: 50%;
+}
+
+.void_class {
+    width: 150px;
+    height: 80px;
+    border: solid;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: thin;
+    background-color: rgb(255, 255, 254);
+    text-align: center;
+    opacity: 0.7;
+    z-index: 10;
+    position: relative;
+}
+
+.numero_fila {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+.numero_fila p {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.mineatura {
+    text-align: center;
+}
+
+#nombre_materia {
+    font-size: 11px;
+}
+
+.mineatura_class {
+    /* width: 80%;
+    height: 70px; */
+    width: 150px;
+    height: 80px;
+    /* margin: auto; */
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: thin;
+    background-color: rgb(255, 255, 254);
+    text-align: center;
+    opacity: 0.7;
+    position: relative;
+}
+
+.mas:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.nameColor:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.type_class {
+    background-color: white;
+    margin: 20px;
+    width: 20%;
+    height: 85px;
+}
+
+.template {
+    -webkit-box-shadow: 4px 8px 26px 29px rgba(232, 232, 232, 0.8);
+    -moz-box-shadow: 4px 8px 26px 29px rgba(232, 232, 232, 0.8);
+    box-shadow: 4px 8px 26px 29px rgba(232, 232, 232, 0.8);
+    padding: 10px;
+    height: 85%;
+    width: 90%;
+    margin: auto;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.data_class {
+    margin: auto;
+    width: 50%;
+}
+
+.lista_materia {
+    width: 100%;
+    padding: 10px;
+}
+
+.align_titles {
+    margin: auto;
+    padding: 10px;
+}
+
+.optional_notes {
+    width: 6%;
+    margin-left: 5px;
+    position: absolute;
+    text-align: center;
+}
+
+.academic_notes {
+    width: 9%;
+    margin-left: 5px;
+    position: absolute;
+    text-align: center;
+}
+
+.big_class {
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    height: 250px;
+}
+
+.class_small_atribute_mini {
+    width: 16%;
+    height: 17px;
+    margin-top: 12%;
+    text-align: center;
+    border: solid 1px black;
+}
+
+.class_big_atribute_mini {
+    width: 36%;
+    margin-top: 12%;
+    text-align: center;
+    height: 17px;
+    border: solid 1px black;
+}
+.error_cve_ocupada {
+    display: block;
+    background-color: hsla(0, 100%, 53%, 0.5);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    text-align: center;
+}
+
+.minName span {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 63%;
+    font-size: 12px;
+}
+
+.miniData {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.class_small_atribute {
+    width: 16%;
+    height: 65px;
+    text-align: center;
+}
+
+.class_big_atribute {
+    width: 36%;
+    height: 65px;
+    text-align: center;
+}
+
+.class_atri {
+    width: 60%;
+    margin: auto;
+}
+
+.type_title {
+    text-align: center;
+}
+.name_class {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20%;
+}
+
+#dui_class {
+    border: double;
+    border-radius: 30px 30px 0px 0px;
+}
+
+#carrera_class {
+    border: solid;
+    border-radius: 30px 30px 0px 0px;
+    border-width: thin;
+}
+
+#dpf_class {
+    border: solid;
+    border-width: thin;
+}
+
+#area_class {
+    border: solid;
+}
+
+#fh_class {
+    border: double;
+}
+
+#prer_class {
+    border: dashed;
+}
+
+.dui_class {
+    border: double;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.carrera_class {
+    border: solid;
+    border-radius: 30px 30px 0px 0px;
+    border-width: thin;
+}
+
+.dpf_class {
+    border: solid;
+    border-width: thin;
+}
+
+.area_class {
+    border: solid;
+}
+
+.fh_class {
+    border: double;
+}
+
+.prer_class {
+    border: dashed;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.submit_button {
+    margin-top: 30px;
+}
+
+.main {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.input_hidden {
+    position: absolute;
+    left: -9999px;
+}
+
+.selected {
+    background-color: #ccc;
+}
+
+#emotion label {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#emotion label img {
+    padding: 3px;
+}
+
+.navbar {
+    background-color: rgb(218, 218, 218);
+    top: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    background: #007bff;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 13px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.cat_ser_materias {
+    margin: auto;
+}
+
+.ext_input,
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.ext_input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.data_class {
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 80%;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.nav_button {
+    width: 15%;
+    font-size:.8vw
+}
+
+.nav_editor_buttons{
+    background-color: #034078;
+    color:white;
+    border: none;
+}
+
+.nav_editor_buttons:hover{
+    background-color: #3498f7;
+}
+
+.nav_bar{
+    background-color: #ccc;
+}
+
+.template_table{
+    overflow: auto;
+}
+
+.mineatura_opts div span {
+    font-weight: 800;
+}
+
+.creditos_contador {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    margin: auto;
+    text-align: center;
+}
+
+
+.nav_bar_editor{
+    background-color:#eee; 
+    height:140px; 
+    -webkit-box-shadow: 0px 3px 12px 2px rgba(0,0,0,0.5); 
+    -moz-box-shadow: 0px 3px 12px 2px rgba(0,0,0,0.5); 
+    box-shadow: 0px 3px 12px 2px rgba(0,0,0,0.5);
+}
+
+.nav_tools{
+    display: inline-block;
+    color: #333;
+    height: 100%;
+    width: 500px !important;
+    padding-left: 15px;
+    padding-top: 5px;
+    border-right: solid 1px #555;
+}
+
+
+.nav_tools span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #555;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.jumbotron{
+    padding-top: 4%;
+    padding-bottom: 2%;
+    background-size: cover;
+    margin-bottom: 0 !important;
+}
+
+.jumbotron, h6{
+    font-size: 11px;
+    line-height: 50%;
+}
+
+.btn-uaslp-login{
+    background:#1a3256;
+    color:#fff; 
+    margin-right:auto;
+}
+
+.btn-uaslp-login:hover{
+    background:#305a99;
+    color:#fff; 
+    margin-right:auto;
+}
