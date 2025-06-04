@@ -1,30 +1,52 @@
-# 📌 Pendientes del Proyecto
+# Study Plan Designer
 
-## 1. Hacer la cuadrícula en el canvas
+Study Plan Designer is an interactive web application for designing and visualizing academic study plans in a flexible and intuitive way.
 
-📌 **Debe seguir el formato de un plan de estudios.**
+## Overview
 
-- 📏 **Cantidad de cuadritos:**
-  - Verticalmente: **10** (10 semestres).
-  - Horizontalmente: **Variable y responsivo**.
-- 🔗 **Conexión entre cuadritos:**
-  - Deben poder conectarse.
-  - Como son estáticos con posiciones constantes, la implementación debería ser más sencilla.
-- 📊 **Cálculo de créditos por semestre:**
-  - Se debe mostrar en un cuadrito a la derecha.
-- 🖍️ **Opciones para los elementos de CACEI:**
-  - Dibujarlos directamente en el PDF y hacer que el canvas no cubra ese margen.
-  - Ponerlos en el canvas directamente. (A elección del programador).
+This tool enables academic institutions or curriculum designers to create study plans by arranging subjects on a visual canvas. Users can define subject prerequisites (serialization), group subjects by sections with color coding, and export the result to a PDF format. The application is built with usability and clarity in mind.
 
-##  2. Guardar todo
+## Features
 
-📌 **Al abrir una materia, debe abrirse su respectivo plan de estudios editable.**
+- Canvas-based layout for subject organization
+- Subject serialization by displaying prerequisite subject codes
+- Subject grouping with background color and borders to represent sections
+- Rich text editor for descriptive notes and curriculum details
+- Persistent state saving and loading
+- PDF export including both the canvas and textual content
 
-## 🛠️ 3. Correcciones
+## Screenshots
 
-- ✂️ **Copiar y pegar correctamente.**
-- 📏 **Guías al hacer resize.**
-- 🔧 **Revisar problemas con el formato del cuadro de texto:**
-  - Negritas y eso funciona pero no tanto lo del tamaño de letra y no siempre revisa el texto seleccionado
-- 🎨 **Corrección de las líneas del canvas:**
-  - Actualmente no son hijas del canvas, por lo que **no se ven** correctamente en el pdf
+### Subject Canvas Editor
+
+This is the main interactive editor where users place and organize subjects visually.
+
+![Canvas View](assets/image1.png)
+
+### PDF Export Preview
+
+This shows how the study plan looks when exported to PDF.
+
+![PDF Preview](assets/image2.png)
+
+## Technologies Used
+
+- HTML, CSS, JavaScript
+- Vue.js or React (depending on implementation)
+- Canvas or SVG rendering for layout
+- LocalStorage or backend integration for saving state
+- PDFMake or jsPDF for generating PDFs
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed on your system
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/study-plan-designer.git
+cd study-plan-designer
+npm install
+npm run dev
