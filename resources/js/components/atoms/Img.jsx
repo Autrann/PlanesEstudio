@@ -7,7 +7,7 @@ function Img({
 }) {
 
     let finalSrc = '';
-    let url =`/images/icons/:icon.webp`;
+    let url =`../images/icons/:icon.webp`;
     params && Object.keys(params).forEach((key) => {
         const placeholder = `:${key}`
         if (url.includes(placeholder)) {
